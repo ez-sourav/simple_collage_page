@@ -5,7 +5,7 @@ personalDetails.addEventListener("submit",(e)=>{
     const selectedValue=  chooseQuestion.value ;
     if(selectedValue==='Yes'){
         window.location.href="Yes_link_page/choose_yes.html"
-    }else(selectedValue==='No'){
+    }else{
         alert("ThankYou For Visiting")
         window.location.href="https://www.google.com/"
     }
