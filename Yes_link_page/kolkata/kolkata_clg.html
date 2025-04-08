@@ -151,11 +151,20 @@
         
 
     </div>
-    <footer>
+    <!-- <footer>
 
         <div class="footer_sit">
             <p>Copyright &copy; || All rights reserved || <strong class="tiu_footer">Techno India University</strong></p>
         </div>
+    </footer> -->
+    <footer class="tiu_footer_full">
+        <p>&copy; <span id="year"></span> Techno India University, Kolkata. All rights reserved.</p>
     </footer>
+    
+    
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
 </body>
 </html>
