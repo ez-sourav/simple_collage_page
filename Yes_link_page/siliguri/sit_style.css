@@ -208,12 +208,12 @@ th, td {
 
 /* Mobile responsiveness */
 @media screen and (max-width: 768px) {
-    .sit_heading {
+/*     .sit_heading {
         font-size: 1.5em;
-    }
+    }  changeses*/
 
     .sit_logo img {
-        width: 100px;
+        width: 100%;
         height: auto;
     }
 
@@ -222,7 +222,6 @@ th, td {
     .bca_intro,
     .fees {
         padding: 10px;
-        font-size: 1em;
     }
 
     .scope ul, .scope_of_higer_studies ul {
@@ -231,10 +230,10 @@ th, td {
 }
 
 @media screen and (max-width: 480px) {
-    .sit_heading {
+/*     .sit_heading {
         font-size: 1.2em;
-    }
-
+    }  changeses*/ 
+ 
     th, td {
         font-size: 0.9em;
         padding: 8px;
