@@ -78,6 +78,27 @@ h2 {
   transition: 0.3s ease;
 }
 
+button[type="submit"] {
+  background-color: #28a745;
+  color: white;
+  font-weight: 600;
+}
+
+button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+button[type="reset"] {
+  background-color: #dc3545;
+  color: white;
+  font-weight: 600;
+}
+
+button[type="reset"]:hover {
+  background-color: #c82333;
+}
+  
+}
 .details-continer button:hover {
   background: #1e40af;
 }
