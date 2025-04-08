@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Details Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-continer">
+  <h2>Personal Details</h2>
+  <div class="details-continer">
+  <form class="personal_details">
+    <table cellpadding="8">
+      <tr>
+        <td><label for="fname">First Name: <span>*</span> </label></td>
+        <td><input type="text" name="fname" id="fname" required placeholder="Enter Your First Name"></td>
+      </tr>
+      <tr>
+        <td><label for="mname">Middle Name:</label></td>
+        <td><input type="text" name="mname" id="mname" placeholder="Enter Your Middle Name"></td>
+      </tr>
+      <tr>
+        <td><label for="lname">Last Name: <span>*</span> </label></td>
+        <td><input type="text" name="lname" id="lname" required placeholder="Enter Your Last Name"></td>
+      </tr>
+      <tr>
+        <td><label for="father_name">Father Name: <span>*</span> </label></td>
+        <td><input type="text" name="father_name" id="father_name" required  placeholder="Enter Your Father Name"></td>
+      </tr>
+      <tr>
+        <td><label for="gender">Gender: <span>*</span> </label></td>
+        <td>
+          <input type="radio" name="gender" id="male" value="Male" required/>
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="female" value="Female" />
+          <label for="female">Female</label>
+          <input type="radio" name="gender" id="other" value="Other" />
+          <label for="other">Others</label>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="dob">Date of Birth: <span>*</span> </label></td>
+        <td><input type="date" name="dob" id="dob"  required ></td>
+      </tr>
+      <tr>
+        <td><label for="place_of_birth">Place of Birth:</label></td>
+        <td><input type="text" name="place_of_birth" id="place_of_birth"  placeholder="Enter Your Place of Bitrh"></td>
+      </tr>
+      <tr>
+        <td><label for="address">Address: <span>*</span> </label></td>
+        <td><textarea name="address" id="address" rows="4" cols="30" required placeholder="Enter Your Address"></textarea></td>
+      </tr>
+      <tr>
+        <td><label for="ph_number">Contact No: <span>*</span> </label></td>
+        <td><input type="text" name="ph_number" id="ph_number" maxlength="10" required placeholder="1234567890"></td>
+      </tr>
+      <tr>
+        <td><label for="email">Email: <span>*</span> </label></td>
+        <td><input type="email" name="email" id="email" required placeholder="xyz@gmail.com"></td>
+      </tr>
+      
+      <tr>
+        <td><label for="chooseQuestion">Do You Want To Choose BCA? <span>*</span></label></td>
+        <td>
+          <select name="chooseQuestion" id="chooseQuestion" required>
+            <option selected disabled value="">-- Choose Your Option --</option>
+            <option id="yes" value="Yes">Yes</option>
+            <option id="no" value="No">No</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+          <td><button type="reset">Reset</button></td>
+        <td><button type="submit">Submit</button></td>
+      </tr>
+    </table>
+  </form>
+</div>
+<!-- <div class="requirement">
+  <h3>Do You Want To Choose BCA</h3>
+  <button class="btn-yes"><a href="/Home_Page/Yes_link_page/choose_yes.html" target="_blank">YES</a></button> 
+  <button class="btn-no">NO</button> 
+
+</div> -->
+</div>
+<footer>
+  <div class="footer">
+    <p>Copyright &copy; 2025 Coding | All Rights Reserved</p>
+  </footer>
+</div>
+</body>
+<script src="script.js"></script>
+</html>

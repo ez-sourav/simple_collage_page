@@ -1,0 +1,172 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #e9eef3;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    /* padding: 20px; */
+}
+
+/* Main content box */
+.sit_bca_container {
+    
+    width: 100%;
+    /* max-width: 1100px; */
+    font-family: verdana, geneva, sans-serif;
+    background-color: #fff;
+    padding: 10px 40px 0px 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: #1a73e8;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 600px) {
+    .sit_heading {
+        font-size: 1.8rem;
+        margin: 20px 10px;
+    }
+}
+
+/* Content spacing */
+.bca_intro div,
+.bca_intro p {
+    margin-bottom: 20px;
+}
+
+/* Highlighted labels */
+.bca_intro strong {
+    color: #1a73e8;
+}
+
+/* Lists */
+.scope ul,
+.scope_of_higer_studies ul {
+    list-style: disc inside;
+    margin-bottom: 10px;
+}
+
+.scope p,
+.scope_of_higer_studies p {
+    margin-left: 20px;
+}
+
+/* Responsive for small screens */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 25px;
+    }
+}
+
+.about_bca{
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 32px;
+    color: #000000;
+}
+.sit_logo{
+    width: 50%;
+    
+}
+/* .footer_sit{
+    display: none;
+} */
+.sit_heading{
+    color: black;
+    font-size: 38px;
+    text-align: justify;
+}
+.footer_sit{
+    text-align: center;
+    margin: 10px;
+    
+}
+hr{
+    margin-bottom: 10px;
+}
+
+/* table */
+
+.course-info-table {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px 0;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.course-info-table td {
+    padding: 14px 18px;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+    color: #333;
+}
+
+.course-info-table tr:last-child td {
+    border-bottom: none;
+}
+
+.course-info-table td:first-child {
+    font-weight: 600;
+    background-color: #f9f9f9;
+    width: 40%;
+}
+
+.course-info-table a.sit_web_link {
+    text-decoration: none;
+    color: #1a73e8;
+    font-weight: 500;
+    margin: 0;
+
+}
+
+.course-info-table a.sit_web_link:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .course-info-table td {
+        font-size: 14px;
+        padding: 12px;
+    }
+}
+
+.overview_bca{
+    margin: 10px 0;
+}
+.overview_bca,strong {
+    color: #1a73e8;
+    font-size: 20px;
+}
+.tiu_footer{
+    color: #ff1212;
+    font-size: 20px;
+}
+.fees_heading{
+    color: #1a73e8;
+    font-size: 20px;  
+}
