@@ -32,7 +32,9 @@ body {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
-
+img{
+    margin-top: 15px;
+}
 /* Heading */
 h1 {
     text-align: center;
