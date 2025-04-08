@@ -4,11 +4,9 @@ personalDetails.addEventListener("submit",(e)=>{
     const chooseQuestion= document.querySelector('#chooseQuestion')
     const selectedValue=  chooseQuestion.value ;
     if(selectedValue==='Yes'){
-        window.location.href="/Yes_link_page/choose_yes.html"
-    }else if (selectedValue==='No'){
+        window.location.href="Yes_link_page/choose_yes.html"
+    }else(selectedValue==='No'){
         alert("ThankYou For Visiting")
         window.location.href="https://www.google.com/"
-    }else{
-        alert("exit")
     }
 })
