@@ -166,3 +166,133 @@ hr{
     color: #1a73e8;
     font-size: 20px;  
 }
+
+
+/* responsive */
+
+/* sit_style.css */
+
+/* Make images responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Basic container styling */
+.sit_bca_container {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Responsive heading */
+.sit_heading {
+    font-size: 2em;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Responsive table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow-x: auto;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+    .sit_heading {
+        font-size: 1.5em;
+    }
+
+    .sit_logo img {
+        width: 100px;
+        height: auto;
+    }
+
+    .overview_bca,
+    .about_bca,
+    .bca_intro,
+    .fees {
+        padding: 10px;
+        font-size: 1em;
+    }
+
+    .scope ul, .scope_of_higer_studies ul {
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .sit_heading {
+        font-size: 1.2em;
+    }
+
+    th, td {
+        font-size: 0.9em;
+        padding: 8px;
+    }
+
+    .fee-table {
+        font-size: 0.9em;
+    }
+
+    .footer_sit {
+        font-size: 0.8em;
+        text-align: center;
+    }
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.flex-item {
+    flex: 1 1 100%; /* full width on small screens */
+}
+
+@media screen and (min-width: 768px) {
+    .flex-item {
+        flex: 1 1 48%; /* half width on tablets and up */
+    }
+}
+
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+}
+
+
+/* new footer */
+/* Responsive Full-Width Footer */
+.sit_footer_full {
+    width: 100%;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 1rem;
+    margin-top: 30px;
+}
+
+.sit_footer_full strong {
+    color: #00c0ff;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+    .sit_footer_full {
+        font-size: 0.9rem;
+        padding: 15px 5px;
+    }
+}
