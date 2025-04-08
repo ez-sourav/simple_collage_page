@@ -147,11 +147,14 @@
         
 
     </div>
-    <footer>
 
-        <div class="footer_sit">
-            <p>Copyright &copy; || All rights reserved || <strong>Siliguri Institute of Technology(SIT)</strong></p>
-        </div>
-    </footer>
+    <footer class="sit_footer_full">
+        <p>&copy; <span id="year"></span> Siliguri Institute of Technology | All rights reserved</p>
+    </footer>  
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    
 </body>
 </html>
